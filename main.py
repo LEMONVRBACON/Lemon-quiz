@@ -42,7 +42,7 @@ else:
    correct = -1
    os.system("title Lemon quiz ^| points: " + str(correct))
    os.system("cls")
-answer = input(Fore.CYAN + "what is my least favorit Fruit").strip()
+answer = input(Fore.CYAN + "what is my least favorit Fruit? ").strip()
 if answer == "lime":
    print("correct")
    time.sleep(3)
@@ -54,7 +54,7 @@ else:
    correct = -1
    os.system("title Lemon quiz ^| points: " + str(correct))
 os.system("cls")
-answer = input(Fore.CYAN + "what is my least tiktoker").strip()
+answer = input(Fore.CYAN + "what is my least tiktoker? ").strip()
 if answer == "lime vr":
    print("correct")
    time.sleep(3)
